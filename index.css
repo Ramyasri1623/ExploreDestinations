@@ -1,0 +1,169 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #222;
+    color: #fff;
+   
+}
+.banner {
+    position: relative;            /* Allow absolute positioning for child elements */
+    text-align: center; 
+    padding-top: 50px;   
+    padding-bottom: 50px; 
+    overflow-y: hidden;
+    overflow-x: hidden;      /* Center the text */
+    
+}
+
+.banner-image {
+    
+    margin-top:50px ;
+    margin-bottom: 50px;
+    width: 100%;                  /* Make image responsive */
+    height: auto; 
+                    /* Maintain aspect ratio */
+}
+
+.banner-heading {
+    font-size: 3em; /* Adjust font size as needed */
+    margin: 0;
+    position: absolute;
+    top: 30%; /* Position it in the center */
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the text */
+}
+
+.banner-subheading {
+    font-size: 1.5em; 
+    margin: 10px 0 0; 
+    position: absolute;
+    top: calc(30% + 40px); 
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* Navbar */
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: transparent; /* Transparent background */
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: #09f3a5;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+/* Video Section */
+.video-section {
+    margin-top: 80px; /* To push video below navbar */
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.video-section video {
+    width: 100%;
+    height: auto;
+}
+
+
+
+
+
+/* Stripe Section */
+.stripe-section {
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+    background-color: #fff;
+    color: #222;
+}
+
+.stripe-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.stripe-content .text {
+    width: 50%;
+    padding: 20px;
+}
+
+.stripe-content .image {
+    width: 15%;
+    text-align: center;
+    height: auto;
+    margin-right: 5%;
+}
+
+.stripe-content .image img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0;
+    overflow-x: scroll; 
+    scroll-behavior: smooth;
+    padding: 20px 0;
+}
+.cards::-webkit-scrollbar {
+  display: none;   
+}
+.card {
+    background-color: #fff;
+    padding: 2%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 30%;
+    height: 330px; 
+    text-align: center;
+    margin-right: 20px; 
+    flex:0 0 auto;
+    justify-content: center;
+    margin-left: 15px;
+    justify-items: auto;
+}
+.card img {
+    width: 100%;
+    height: 45%;
+    object-fit: cover;
+    border-radius: 5%;
+    padding: 0%;
+    margin: 0;
+    transition: transform 0.3s, background-color 0.3s;
+
+}
+.cards .card:hover{
+    transition: transform 0.3s;
+    background-color: rgb(203, 201, 200);
+    transform:scale(1.05);
+}
+.card p{
+    color: #222;
+    text-align: center;
+}
+.card h3{
+    color: #222;
+    text-align: center;
+}
