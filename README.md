@@ -36,5 +36,16 @@ explore-destinations/ ├── index.html # Main HTML file ├── style.css 
 
 ## Screenshots
 ![image alt](https://github.com/Ramyasri1623/ExploreDestinations/blob/81c2cb636cb8822556509ce7b0609bf334aaa1f5/travel1.png)
-![image alt]()
 
+![image alt](https://github.com/Ramyasri1623/ExploreDestinations/blob/103ff2facecfad368aee2c59b4b264955187a9e4/travel2.png)
+
+![image alt](https://github.com/Ramyasri1623/ExploreDestinations/blob/53ba3dd5462572923fed4f62ec1a13ac9b995e37/traveltips.png
+)
+
+![image alt](https://github.com/Ramyasri1623/ExploreDestinations/blob/53ba3dd5462572923fed4f62ec1a13ac9b995e37/attractions.png
+)
+
+![image alt](https://github.com/Ramyasri1623/ExploreDestinations/blob/53ba3dd5462572923fed4f62ec1a13ac9b995e37/historical.png
+)
+
+![image alt](https://github.com/Ramyasri1623/ExploreDestinations/blob/53ba3dd5462572923fed4f62ec1a13ac9b995e37/hill.png)
