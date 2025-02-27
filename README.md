@@ -35,5 +35,6 @@ ExploreDestinations provides an engaging visual guide for exploring India. The p
 explore-destinations/ ├── index.html # Main HTML file ├── style.css # CSS styling file ├── images/ # Folder containing screenshots and images └── README.md # Project documentation
 
 ## Screenshots
-
+![image alt](https://github.com/Ramyasri1623/ExploreDestinations/blob/81c2cb636cb8822556509ce7b0609bf334aaa1f5/travel1.png)
+![image alt]()
 
